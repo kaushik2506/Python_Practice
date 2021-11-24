@@ -20,5 +20,5 @@ def count_chars(input_string):
     # print(f"{input_string} has {len(list(input_string))} characters.")  using list --> it break downs the string to individual chars
 
 
-# first call take_input function and then pass the value to count_chars function
+# this will first call the take_input function and then pass on the value to count_chars function
 count_chars(take_input())
