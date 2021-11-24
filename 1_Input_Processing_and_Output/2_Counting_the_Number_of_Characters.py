@@ -1,4 +1,4 @@
-# take user input and return its value only if the user has entered atleast 1 character
+# takes user input and return its value only if the user has entered atleast 1 character
 def take_input():
     while(True):
         print(" ")
@@ -9,6 +9,7 @@ def take_input():
             continue
         else:
             return input_string
+            print(" ")
         break
 
 
@@ -19,6 +20,5 @@ def count_chars(input_string):
     # print(f"{input_string} has {len(list(input_string))} characters.")  using list --> it break downs the string to individual chars
 
 
-print(" ")
 # call the count_user function that will first call the take_input function
 count_chars(take_input())
