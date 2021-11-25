@@ -5,7 +5,7 @@ def take_input():
         "person": "Who said it: "
         }
 
-    #this while loop is only for input quote
+    #this while loop is only for input_quote
     while(True):
         print(" ")
         #this variable calls the dictionary method to get the value of quote
@@ -16,7 +16,7 @@ def take_input():
             print(" ")
             continue
         else:
-            #this while loop is only for input person
+            #this while loop is only for input_person
             while(True):
                 #this variable calls the dictionary method to get the value of person who said that quote
                 input_person = input(input_dict.get("person"))
