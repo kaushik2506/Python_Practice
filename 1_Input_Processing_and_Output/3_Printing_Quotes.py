@@ -28,15 +28,17 @@ def take_input():
                 break
         break
     # here, we return a list with two values
-    return [input_quote, input_person]
+    return input_quote, input_person
 
 
-def print_quotes(input_quote, input_person):
+# The expression func() means "call the function assigned to the variable func."
+# For more details, refer --> https://realpython.com/primer-on-python-decorators/
+
+def print_quotes(func):
+    input_quote, input_person = func()
     print(" ")
     print(input_person + ' says, \"'+input_quote + '\".')
 
 
-# here, we store the values the returned function in the variable
-returned_value = take_input()
-# this function takes two values that is returned from the list
-print_quotes(returned_value[0], returned_value[1])
+# this function takes two values that is returned from the list....Here, take_input is a helper function
+print_quotes(take_input)
