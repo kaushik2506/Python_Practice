@@ -9,7 +9,6 @@ def take_input():
             continue
         else:
             return input_string
-            print(" ")
         break
 
 
