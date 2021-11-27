@@ -43,7 +43,7 @@ def print_paragraph(func):
     #user_input_values_new = list(map(lambda x: x, user_input_values))
     print(" ")
     print(
-        f"Do you {user_input_values[1]} your {user_input_values[2]} {user_input_values[0]} {user_input_values[3]}? That's hilarious!")
+        f"Do you {user_input_values[1]} your {user_input_values[2]} {user_input_values[0]} {user_input_values[3]}? That's hilarious!🤣")
 
 
 # first function takes a list as a parameter from the take_input function...Here, take_input is a helper function
